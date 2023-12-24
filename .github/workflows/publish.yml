@@ -25,7 +25,7 @@ jobs:
         id: meta
         uses: docker/metadata-action@v4
         with:
-          images: ghcr.io/abahmed/kwatch
+          images: ghcr.io/nmnjn/kwatch
       - name: Build and push Docker image
         uses: docker/build-push-action@v4
         with:
